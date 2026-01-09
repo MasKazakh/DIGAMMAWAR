@@ -1,0 +1,40 @@
+focus_tree {
+    id = zigamet_focus
+
+    country = {
+        base = 0
+        modifier = {
+            add = 10
+            tag = FEM
+        }
+    }
+
+    focus = {
+        id = FEM_SIEZD1FOC
+        icon = GFX_focus_generic_advanced_military_studies
+        x = 6
+        y = 0
+        cost = 1
+        completion_reward = {
+            add_political_power = 25
+        }
+    }
+    focus = {
+        id = FEM_CONSTRUCT_NIKUSOYARSK_RAILWAY
+        icon = GFX_focus_generic_railroad
+        relative_position_id = FEM_SIEZD1FOC
+        x = -6
+        y = 2
+        prerequisite = {
+            focus = FEM_SIEZD1FOC
+        }
+        cost = 2
+        completion_reward = {
+            add_timed_idea = {
+                idea = FEM_focushit1
+                days = 70
+            }
+        }
+    }
+
+}

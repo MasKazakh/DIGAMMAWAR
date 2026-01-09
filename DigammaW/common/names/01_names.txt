@@ -28,3 +28,60 @@ KAZ = {
         }
     }
 }
+
+FEM = {
+    male = {
+        names = {
+            Vladimir Leonid Matvei Alexander Nikolay Zhenya abdurahmangaji Egor Boris Sergey Mihail Ivan
+        }
+        surnames = {
+            Vlaicu Puț Pizdariu Pavlov Tito Nikulin Nikuni Govnolazov Ceaușescu Peskov Schrabidatov Bozonov Sparktiklov Digammov
+        }
+    }
+    female = {
+        names = {
+            Efroseniya Eva Ekaterina Alisa Larisa Andreea Zigamet Zina 
+        }
+        surnames = {
+            Vatniy Letov Unnamed
+        }
+    }
+}
+
+FPL = {
+    male = {
+        names = {
+            Vladimir Leonid Matvei Alexander Nikolay Zhenya abdurahmangaji Egor Boris Sergey Mihail Ivan
+        }
+        surnames = {
+            Vlaicu Puț Pizdariu Pavlov Tito Nikulin Nikuni Govnolazov Ceaușescu Peskov Schrabidatov Bozonov Sparktiklov Digammov
+        }
+    }
+    female = {
+        names = {
+            Efroseniya Eva Ekaterina Alisa Larisa Andreea Zigamet Zina 
+        }
+        surnames = {
+            Vatniy Letov Unnamed
+        }
+    }
+}
+
+FPX = {
+    male = {
+        names = {
+            Vladimir Leonid Matvei Alexander Nikolay Zhenya abdurahmangaji Egor Boris Sergey Mihail Ivan
+        }
+        surnames = {
+            Vlaicu Puț Pizdariu Pavlov Tito Nikulin Nikuni Govnolazov Ceaușescu Peskov Schrabidatov Bozonov Sparktiklov Digammov
+        }
+    }
+    female = {
+        names = {
+            Efroseniya Eva Ekaterina Alisa Larisa Andreea Zigamet Zina 
+        }
+        surnames = {
+            Vatniy Letov Unnamed
+        }
+    }
+}

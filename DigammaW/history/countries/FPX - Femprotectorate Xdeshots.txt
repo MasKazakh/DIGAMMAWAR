@@ -1,4 +1,4 @@
-capital = 1
+capital = 77
 oob = "FPX_1953"
 
 set_research_slots = 1
@@ -20,4 +20,10 @@ add_breakthrough_progress = {
 add_breakthrough_progress = {
 	specialization = specialization_air
 	value = 0.4
+}
+
+set_popularities = {
+	communism = 56
+	fascism = 12
+	democracy = 32
 }

@@ -1,0 +1,28 @@
+division_template = {
+    name = "Digammists"
+
+    regiments = {
+        infrantry = { x = 0 y = 0 }
+        infrantry = { x = 0 y = 1 }
+        infrantry = { x = 0 y = 2 }
+        infrantry = { x = 1 y = 0 }
+        infrantry = { x = 1 y = 1 }
+        infrantry = { x = 1 y = 2 }
+    }
+    support = {
+        engineer = { x = 0 y = 0 }
+    }
+}
+
+units = {
+    division = {
+        name = "1. Digammists Division"
+        location = 3707
+        division_template = "Digammists"
+    }
+        division = {
+        name = "2. Digammists Division"
+        location = 6727
+        division_template = "Digammists"
+    }
+}

@@ -1,4 +1,4 @@
-capital = 67 
+capital = 46 
 oob = "FEM_1953"
 
 set_research_slots = 1
@@ -6,6 +6,8 @@ set_stability = 0.85
 set_war_support = 2
 add_command_power = 69
 add_political_power = 69
+set_convoys = 5
+
 
 add_breakthrough_progress = {
 	specialization = specialization_land
@@ -21,3 +23,16 @@ add_breakthrough_progress = {
 	specialization = specialization_air
 	value = 0.4
 }
+
+
+set_politics = {
+	ruling_party = communism
+	elections_allowed = no
+}
+
+set_popularities = {
+	communism = 98
+	fascism = 2
+}
+
+recruit_character = FEM_VGV

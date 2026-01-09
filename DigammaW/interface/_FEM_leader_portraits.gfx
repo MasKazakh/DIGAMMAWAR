@@ -1,0 +1,7 @@
+spriteTypes = {
+
+    spriteType = {
+        name = "GFX_portrait_FEM_glavkom"
+        texturefile = "gfx/leaders/FEM/digammka.tga"
+    }
+}
