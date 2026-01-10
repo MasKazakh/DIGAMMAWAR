@@ -11,6 +11,8 @@ focus_tree = {
 	
 	default = no
 	
+#						NEW POLITICS FOCUS TREE
+# ----------------------------------------------------------------------
 	focus = {
 		id = can_new_politics
 		x = 16
@@ -22,6 +24,24 @@ focus_tree = {
 		}
 	}
 	
+	focus = {
+		id = can_calming_people
+		prerequisite = { focus = can_new_politics }
+		x = 16
+		y = 1
+		cost = 10
+		completion_reward = {
+			add_stability = 0.50
+			        set_popularities = {
+            democratic = 0.10
+			}
+		}
+	}
+# ----------------------------------------------------------------------
+
+
+# 						OLD POLITICS FOCUS TREE
+# ----------------------------------------------------------------------
 		focus = {
 		id = can_keep_old_politics
 		x = 20
@@ -32,7 +52,7 @@ focus_tree = {
 			add_stability = 0.09
 		}
 	}
-	
+# ----------------------------------------------------------------------
 	
 	
 	
@@ -52,5 +72,5 @@ focus_tree = {
             category = industry
 		}
 	}
-	}
-}
+
+
