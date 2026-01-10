@@ -22,6 +22,11 @@ add_breakthrough_progress = {
 	value = 0.4
 }
 
+set_politics = {
+	ruling_party = communism
+	elections_allowed = no
+}
+
 set_popularities = {
 	communism = 100
 }

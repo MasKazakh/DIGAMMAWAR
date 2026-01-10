@@ -7,16 +7,16 @@ CAN = {
     color_ui = rgb { 244 68 103 }
 }
 FEM = {
-    color = rgb { 128 0 1}
-    color_ui = rgb { 128 0 1 }
+    color = rgb { 128 0 128}
+    color_ui = rgb { 128 0 128 }
 }
 FPL = {
-    color = rgb { 128 0 1}
-    color_ui = rgb { 128 0 1 }
+    color = rgb { 128 0 128}
+    color_ui = rgb { 128 0 128 }
 }
 FPX = {
-    color = rgb { 128 0 1}
-    color_ui = rgb { 128 0 1 }
+    color = rgb { 128 0 128}
+    color_ui = rgb { 128 0 128 }
 }
 
 #reload countrycolors

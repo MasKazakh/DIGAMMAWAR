@@ -6,13 +6,13 @@ characters = {
                 large=GFX_portrait_VGV_character
             }
         }
-    }
 
-    country_leader ={
-        desc = "FEM_VGV_desc"
-        expire = 9999.12.31
-        ideology = stalinism
-        id = -1
-        traits = { } 
+        country_leader = {
+            desc = "FEM_VGV_DESC"
+            expire = 9999.12.31
+            ideology = stalinism
+            id = -1
+            traits = { } 
+        }
     }
 }
