@@ -8,6 +8,7 @@ focus_tree = {
 			tag = CAN
 		}
 	}
+}
 	
 	default = no
 	
@@ -49,7 +50,7 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			add_political_power = 10
-			add_stability = 0.09
+			add_stability = 0.10
 		}
 	}
 # ----------------------------------------------------------------------
@@ -58,9 +59,8 @@ focus_tree = {
 	
 	
 	
-	
 	focus = {
-		id = industrial_development
+		id = can_industrial_development
 		x = 38
 		y = 1
 		cost = 10
@@ -72,5 +72,34 @@ focus_tree = {
             category = industry
 		}
 	}
+}
+
+
+
+
+
+# 							ARMY DEVELOPMENT
+# ----------------------------------------------------------------------
+
+focus = {
+	id = army_development
+	x = 26
+	y 0
+	cost = 10
+	completion_reward = {
+		add_doctrine_cost_reduction = {
+
+			cost_reduction = 0.25
+
+			uses = 2                                
+
+			category = land_doctrine
+
+		}
+
+
+	}
+}
+# ----------------------------------------------------------------------
 
 
