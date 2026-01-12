@@ -80,6 +80,7 @@ focus = {
 		x = 0
 		y = 0
 		cost = 10
+		add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
 		completion_reward = {
 		add_tech_bonus = {
 			name = industrial_test
@@ -93,6 +94,24 @@ focus = {
 
 		}
 	}
+
+focus = {	
+       id = industrial_development 
+	   x = 0
+	   y = 0
+	   cost = 15
+	   add_dynamic_modifier = { modifier = construction_speed construction_speed_factor = 0.2 }
+       completion_reward = {
+	   add_tech_bonus = {
+	   name = industrial_test
+	   bonus = 1
+	   uses = 2
+       category = industry
+		}
+}
+}
+
+
 
 # ----------------------------------------------------------------------
 
