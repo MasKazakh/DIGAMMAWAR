@@ -57,8 +57,8 @@ focus_tree = {
 	
 	
 	
-	
-	
+#                     Industrial Development	
+# ----------------------------------------------------------------------
 	focus = {
 		id = can_industrial_development
 		x = 38
@@ -74,9 +74,27 @@ focus_tree = {
 	}
 }
 
+focus = { 
+	
+	   id = industrial_development
+		x = 0
+		y = 0
+		cost = 10
+		completion_reward = {
+		add_tech_bonus = {
+			name = industrial_test
+			bonus = 1
+			uses = 1
+			category = industry
 
 
 
+		}
+
+		}
+	}
+
+# ----------------------------------------------------------------------
 
 # 							ARMY DEVELOPMENT
 # ----------------------------------------------------------------------
