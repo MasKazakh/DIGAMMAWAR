@@ -113,6 +113,21 @@ focus = {
 
 
 
+
+focus = {
+
+			id industrial_development
+			x = 0
+			y = 0
+			cost = 20
+			add_dynamic_modifier = 
+
+
+
+
+
+
+
 # ----------------------------------------------------------------------
 
 # 							ARMY DEVELOPMENT
