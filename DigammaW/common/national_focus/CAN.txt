@@ -76,7 +76,7 @@ focus_tree = {
 
 focus = { 
 	
-	   id = industrial_development
+	   id = industrial_development1
 		x = 0
 		y = 0
 		cost = 10
@@ -96,10 +96,10 @@ focus = {
 	}
 
 focus = {	
-       id = industrial_development 
+       id = industrial_development2
 	   x = 0
 	   y = 0
-	   cost = 15
+	   cost = 10
 	   add_dynamic_modifier = { modifier = construction_speed construction_speed_factor = 0.2 }
        completion_reward = {
 	   add_tech_bonus = {
@@ -116,10 +116,10 @@ focus = {
 
 focus = {
 
-			id industrial_development
+			id industrial_development3
 			x = 0
 			y = 0
-			cost = 20
+			cost = 10
 			add_dynamic_modifier = 
 
 
@@ -134,7 +134,7 @@ focus = {
 # ===================================================================
 
 focus = {
-	id = army_development
+	id = can_army_development
 	x = 26
 	y 0
 	cost = 10
