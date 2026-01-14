@@ -1,6 +1,6 @@
 focus_tree = {
 	id = CAN_focus
-	
+
 	country = {
 		factor = 0
 		modifier = {
@@ -8,12 +8,11 @@ focus_tree = {
 			tag = CAN
 		}
 	}
-}
-	
+
 	default = no
-	
-#						NEW POLITICS FOCUS TREE
-# ===================================================================
+
+	# NEW POLITICS FOCUS TREE
+	# ===================================================================
 	focus = {
 		id = can_new_politics
 		x = 16
@@ -24,7 +23,7 @@ focus_tree = {
 			add_stability = -0.50
 		}
 	}
-	
+
 	focus = {
 		id = can_calming_people
 		prerequisite = { focus = can_new_politics }
@@ -33,125 +32,102 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			add_stability = 0.50
-			        set_popularities = {
-            democratic = 0.10
+			set_popularities = {
+				democratic = 0.10
 			}
 		}
 	}
-# ===================================================================
+	# ===================================================================
 
-
-# 						OLD POLITICS FOCUS TREE
-# ===================================================================
-		focus = {
+	# OLD POLITICS FOCUS TREE
+	# ===================================================================
+	focus = {
 		id = can_keep_old_politics
 		x = 20
 		y = 0
+		icon = GFX_goal_generic_improve_relations
 		cost = 10
 		completion_reward = {
 			add_political_power = 10
 			add_stability = 0.10
 		}
 	}
-# ===================================================================
-	
-	
-	
-#                     Industrial Development	
-# ===================================================================
+	# ===================================================================
+
+	# INDUSTRIAL DEVELOPMENT
+	# ===================================================================
 	focus = {
 		id = can_industrial_development
 		x = 38
 		y = 1
 		cost = 10
 		completion_reward = {
-		add_tech_bonus = {
-            name = industry_focus_bonus
-            bonus = 1
-            uses = 1
-            category = industry
+			add_tech_bonus = {
+				name = industry_focus_bonus
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
 		}
 	}
-}
 
-focus = { 
-	
-	   id = can_industrial_development_instant_build
-		x = 0
-		y = 0
+	focus = {
+		id = can_industrial_development_instant_build
+		prerequisite = { focus = can_industrial_development }
+		x = 36
+		y = 2
 		cost = 10
-		add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
 		completion_reward = {
-		add_tech_bonus = {
-			name = industrial_test
-			bonus = 1
-			uses = 1
-			category = industry
-
-
-
-		}
-
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+				province = 1234  #  You MUST specify a valid province ID!
+			}
+			add_tech_bonus = {
+				name = industrial_test
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
 		}
 	}
 
-focus = {	
-       id = can_industrial_development_construction_speed
-	   x = 0
-	   y = 0
-	   cost = 10
-	   add_dynamic_modifier = { modifier = construction_speed construction_speed_factor = 0.2 }
-       completion_reward = {
-	   add_tech_bonus = {
-	   name = industrial_test
-	   bonus = 1
-	   uses = 2
-       category = industry
+	focus = {
+		id = can_industrial_development_construction_speed
+		prerequisite = { focus = can_industrial_development }
+		x = 38
+		y = 2
+		cost = 10
+		completion_reward = {
+			add_ideas = { CAN_construction_speed_idea }  #  Requires a defined idea in common/ideas/
+			# OR use a temporary modifier if you have one set up properly
+			add_tech_bonus = {
+				name = industrial_test
+				bonus = 1.0
+				uses = 2
+				category = industry
+			}
 		}
-}
-}
-
-
-
-
-focus = {
-
-			id = can_industrial_development_road
-			x = 0
-			y = 0
-			cost = 10
-			add_dynamic_modifier = 
-
-
-
-
-
-
-
-# ===================================================================
-
-# 							ARMY DEVELOPMENT
-# ===================================================================
-
-focus = {
-	id = can_army_development
-	x = 26
-	y 0
-	cost = 10
-	completion_reward = {
-		add_doctrine_cost_reduction = {
-
-			cost_reduction = 0.25
-
-			uses = 2                                
-
-			category = land_doctrine
-
-		}
-
-
 	}
+
+	
+
+	# ARMY DEVELOPMENT
+	# ===================================================================
+	focus = {
+		id = can_army_development
+		x = 26
+		y = 0 
+		cost = 10
+		icon = GFX_Focus_chi_army_reform
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.25
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	# ===================================================================
 }
-# ===================================================================
-
-
