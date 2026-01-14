@@ -76,7 +76,7 @@ focus_tree = {
 
 focus = { 
 	
-	   id = industrial_development1
+	   id = can_industrial_development_instant_build
 		x = 0
 		y = 0
 		cost = 10
@@ -96,7 +96,7 @@ focus = {
 	}
 
 focus = {	
-       id = industrial_development2
+       id = can_industrial_development_construction_speed
 	   x = 0
 	   y = 0
 	   cost = 10
@@ -116,7 +116,7 @@ focus = {
 
 focus = {
 
-			id industrial_development3
+			id = can_industrial_development_road
 			x = 0
 			y = 0
 			cost = 10
