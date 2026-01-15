@@ -101,8 +101,6 @@ focus_tree = {
 		cost = 10
 		completion_reward = {
 			add_ideas = { CAN_construction_speed_idea }  #  Requires a defined idea in common/ideas/
-			# OR use a temporary modifier if you have one set up properly
-			add_tech_bonus = {
 				name = industrial_test
 				bonus = 1.0
 				uses = 2
@@ -110,6 +108,28 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {
+		id = can_industrial_development_test
+		presequisite = { focus = }
+		y = 0
+		x = 0
+		cost = 10
+		uses = 2
+		
+
+
+
+
+
+}
+
+
+
+
+
+
+
 
 	
 
