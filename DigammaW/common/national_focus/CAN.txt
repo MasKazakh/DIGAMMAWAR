@@ -149,5 +149,16 @@ focus_tree = {
 			}
 		}
 	}
+
+	focus = {
+		id = can_militry_factorys
+		x = 26
+		y = 2
+		cost = 10
+		completion_reward = {
+			#gonna add it when I come home because I don't have hoi4 on chromeOS :(
+		}
+	}
+}
 	# ===================================================================
 }
