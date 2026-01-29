@@ -21,3 +21,21 @@ add_breakthrough_progress = {
 	specialization = specialization_air
 	value = 0.4
 }
+
+set_autonomy = {
+    target = KYR
+    autonomous_state = autonomous_srepublic
+}
+
+set_politics = {
+	ruling_party = communism
+	last_election = "1953.3.5"
+	election_frequency = 0
+	elections_allowed = no ##suspended through duration of war, which is handled via event
+}
+set_popularities = {
+	democratic = 23
+	fascism = 2
+	communism = 15
+	socialism = 60
+}
