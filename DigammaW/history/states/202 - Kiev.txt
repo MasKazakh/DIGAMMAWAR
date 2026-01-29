@@ -1,0 +1,22 @@
+state={
+	id=525
+	name="STATE_202" # Kiev
+	manpower = 980533
+}
+
+	history={
+		owner = UKR
+		add_core_of = UKR
+		victory_points = {
+			4333 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOV
+
+	}
+	
+		provinces={
+		9568 3543 504 6497 9465 6497 3494 9543 582 11557 48919 
+	}
