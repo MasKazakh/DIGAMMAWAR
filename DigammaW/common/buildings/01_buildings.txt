@@ -1,0 +1,54 @@
+buildings = {
+
+	fracking_tower = {
+		show_on_map = 1
+		base_cost = 24000
+		per_controlled_building_extra_cost = 5000
+		icon_frame = 32
+		damage_factor = 0.5
+		value = 4
+		local_resources_oil = 3
+		spawn_point = naval_base_spawn
+		allied_build = no
+		infrastructure_construction_effect = yes
+		level_cap = {
+			state_max = 6 
+		}
+		only_costal = yes
+	}
+
+}
+spawn_points = {
+	nuclear_reactor_spawn = {
+		type = state
+		max = 1
+	}
+
+	special_project_facility_spawn = {
+		type = province
+		max = 1
+	}
+
+	rocket_site_spawn = {
+		type = state
+		max = 1
+	}
+
+	naval_base_spawn = {
+		type = province
+		max = 1
+		only_costal = yes
+	}
+
+	dam_spawn = {
+		type = province
+		max = 1
+		disable_auto_nudging = yes
+	}
+
+	locks_spawn = {
+		type = province
+		max = 1
+		disable_auto_nudging = yes
+	}
+}

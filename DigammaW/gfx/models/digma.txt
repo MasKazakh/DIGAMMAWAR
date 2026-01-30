@@ -1,0 +1,7 @@
+objectTypes = {
+    pdxmesh = {
+        name = "fracking_tower"
+        file = "gfx/models/fracking.mesh"		
+        scale = 1.0
+    }
+}	

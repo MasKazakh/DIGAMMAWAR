@@ -27,7 +27,7 @@ give_guarantee = UZB
 
 set_autonomy = {
     target = KYR
-    autonomous_state = autonomous_srepublic
+    autonomous_state = autonomy_srepublic
 }
 
 set_politics = {

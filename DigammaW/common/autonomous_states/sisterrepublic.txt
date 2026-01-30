@@ -61,14 +61,14 @@ autonomy_state = {
 	can_take_level = {
 		OVERLORD = {
 			NOT = {
-				controls_state = 586 404
+				controls_state = 586
 			}	# If the overlord does not control state 123, the subject can gain a level.
 		}
 	}
 
 	can_lose_level = {
 		OVERLORD = {
-			controls_state = 404 586
+			controls_state = 586
 		}	# If the overlord controls state 123, it can decrease the subject's autonomy level.
 	}
 }
